@@ -1,7 +1,7 @@
 # Use the httpd-parent image as base
 FROM quay.io/redhattraining/httpd-parent
 
-EXPOSE 8080
+EXPOSE 80
 
 LABEL	io.openshift.expose-service="8080:http"\
 	io.ks8.description="A description" \
